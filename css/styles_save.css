@@ -1,0 +1,141 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+	padding-left: 8px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  /*border-radius: 0; staat zo te zien std op 0 */
+ /* border: 0; */
+  padding-top: 0; padding-bottom: 0; padding-left: 0;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px; 
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.35em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  /*margin-top: 0; */
+  margin-bottom: 10px;  
+  line-height: .75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand span { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .63em;
+  vertical-align: middle;
+  /* margin-top: 15px; */
+} /*
+.navbar-brand span { /* Star-K */
+  
+/*}*/
+
+#header-nav button {
+  margin-top: 30px; /*padding: 4px 6px 4px 6px; */
+}
+
+/* Lukt blijkbaar: dubbel gebruik van de id navbarNav: gewoon in onze ss en ook verwijzend naar de data-target van de button.
+   Float: right hierbij werkt dan weer niet */
+ @media (min-width: 992px) {   
+	#header-nav #nav-list { /*Om het horizontale menu meer naar rechts te krijgen en op dezelfde hoogte als bij hem */
+  	margin-right: -35px; margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 992px) {   
+	#header-nav #nav-list { /*Om het horizontale menu meer naar rechts te krijgen en op dezelfde hoogte als bij hem */
+  	margin-right: -35px; margin-top: -25px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*Header*/ 
+  .navbar-brand {
+    padding-top: 10px;
+    height: 95px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px; margin-right: 30px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  } 
+  .navbar-brand img, .navbar-brand span { /* Kosher cert */ 
+    font-size: .5em;
+     
+  } 
+  .navbar-brand img { /* Star-K */ 
+    height: 20px; 
+  } 
+ }
+
+#header-nav #navbarNav li { /* Samen met de vorige m-r, bekom je hetzelfde resultaat als bij hem */
+  margin-right: 15px;
+} 
+ 
+#nav-list a { /* Kleur vd links en tekst gecentered tov awesomes */
+  color: #951C49; text-align: center;
+}
+
+#nav-list a .fas, #nav-list #phone a  { /* De awesomes en het tel.nr.*/
+  font-size: 1.8em;
+}
+
+#nav-list #phone div { /* We Deliver */
+  text-align: right; margin-top: -5px; color: #557c3e; margin-right: 10px;
+}
+
+#nav-list a:hover { 
+  background: #E7E7E7; /* lichte achtergrond */
+}
+
+#phone a { /* Phone number. Negatieve margin-top, omdat anders iet op dezelfde hoogte kwam dan de awesomes.*/
+  /*Padding 0 omdat anders 'We Deliver' te laag komt */
+  padding-bottom: 0; margin-top: -10px;
+}
+
+.navbar button.navbar-toggler, .navbar-header .icon-bar {  /*kadertje rond button*/
+  border: 1px solid #61122f; /*clear: both;  Heb clear achteraf er weer uitgehaald, want het werkt blijkbaar ook zonder. 
+  De clear is alleen voor het gedeelte voor de komma, maar zo maar laten staan 
+  om geen extra def te hebben. Hij doet dat wel in zijn vb. en doet het effect van de clear dan weer teniet door een negatieve top margin
+  te zetten Hij deed dat omdat de Kosher onder de gele balk viel omdat de button float right is.*/
+  }
+
+/*.navbar .navbar-toggler-icon {
+  /* https://codepen.io/haleonearth/pen/rGoWGg . Om de kleur van de icon bars in de button aan te passen. Ook dikte, lengte, ed kan zo aangepast worden */
+  /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#61122f' stroke-width='1.6' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+  }*/
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}

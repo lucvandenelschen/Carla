@@ -1,0 +1,360 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff9f6;
+  //background-color: grey;
+  font-family: 'Oxygen', sans-serif;
+ // margin: 0; //staat ook in bootstrap;
+ /*Omdat de onderkant van de tile tegen de onderkant van het scherm plakte*/
+ height: 1160px;
+}
+.container {
+ // padding-left: 0px; // margin-left: 20px; //margin-bottom: 5px;
+}
+
+#header-nav {
+  //background-color: #a1a3a6;
+  background-color: #b2bcac;
+  padding: 0;
+  //background-color: grey; 
+}
+#logo {
+ //background: url("../images/restaurant-logo_large.png") no-repeat;
+ // width: 100px; //height: 100px;
+  margin-top: 5px; margin-bottom: 5px; margin-left: 0;
+}
+nav h1 {
+  font-family: 'Finger Paint', cursive;
+  //  font-size: 47px;
+  color: #203A43;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+}
+nav img {
+	border-radius: 50%;
+	}
+#rest_kosh {
+  margin-top: 15px;
+  margin-left: 15px; padding-bottom: 0;
+}
+#rest_name {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+}
+#rest_kosh a {
+  text-decoration: none;
+}
+#star_kosh {
+  //display: flex;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 15px;
+}
+#star_kosh span {
+  align-self: center;
+  margin-left: 3px;
+  color: #000;
+  font-family: 'Oxygen', serif;
+  font-size: .8em;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(97, 18, 47)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  font-size: 1.2em; 
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgb(97, 18, 47); font-size: 0.8em;
+}
+
+.icon-bar { width: 50px; }
+//#nav-group {
+//  margin-right: 15px;	
+}
+#nav-group li {
+	text-align: center;
+//	margin-top: 15px;
+  //padding: 15px;
+  //margin-left: 25px;
+
+}
+
+#nav-group .high-over:hover {
+  background-color: #FFF;
+}
+#nav-group i {
+  font-size: 1.8em;
+}
+#nav-group a {
+  color: #951C49;
+	text-decoration: none;
+}
+.nav-link {
+	padding: 1.5rem 1rem;
+
+}
+#navbarSupportedContent hr{
+	margin-top: 8px; margin-bottom: 0;
+}
+#tel-nr {
+  font-size: 1.8em;
+  display: inline-block; //voor de margin;
+ // margin-top: -15px; 
+  padding-bottom: 0; 
+  // padding-right: 0;
+  padding-top: 15px;
+}
+#deliver {
+  text-align: right;
+  margin-top: -10px;
+  color: #557c3e;
+}
+#phone {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  margin: 20px;
+  background-color: #f6b319;
+  justify-content: center;
+  height: 60px;
+  margin-right: auto; margin-left: auto;
+  border-radius: 5px;
+  font-size: 1.5em;
+  border: 2px solid white;
+  margin-bottom: 5px;
+}
+hr {height: 2px;
+	width: 100%;
+	color: #fff;}
+
+#deliver-small {
+	text-align: center;
+	font-size: 0.7em;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.jumbotron { padding: 0; }
+.jumbotron img  {
+	height: auto; max-width: 100%;
+}
+
+#menu-tile {
+	background: url("../images/menu-tile.jpg") no-repeat center;
+	position: relative;	
+	//width: 100%;
+	height: 250px;	
+	//overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#specials-tile {
+	background: url("../images/specials-tile.jpg") no-repeat center;
+	position: relative;	
+	//width: 100%;
+	height: 250px;	
+	margin-bottom: 15px;
+}
+
+#map-tile {
+  position: relative;	
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+#tiles span {
+text-align: center;
+width: 100%;
+background: #000;
+color: #fff;
+opacity: .8;
+position: absolute; bottom: 0; right: 0;
+font-size: 1.6em;
+}
+
+/* STYLES FOR MENU-CATEGORIES*/
+#sub-title {
+  margin-bottom: 50px;
+}
+#mc-lunch {
+	position: relative;
+  width: 200px; 
+  margin: 0 auto 15px;
+  //margin-bottom: 15px;
+  //overflow: hidden;
+}
+#mc-lunch-span {
+	position: absolute;
+	bottom: 0; left: 0;
+	width: 100%;
+	background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 1.2em;
+}
+
+/* END STYLES FOR MENU-CATEGORIES*/
+
+/* STYLES FOR SINGLE-CATEGORY*/
+/*#sc-img-box {
+  position: relative;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}*/
+#sc-img-box {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+#sc-img {
+  max-width: 100%;
+  //height: auto;
+}
+#sc-spans-div {
+  text-align: right;
+}
+#sc-span-id{
+  position: absolute;
+  background-color: grey;
+  width: 30%;
+  text-align: center;
+  bottom:0; right:0;
+}
+#sc-span-price {
+  font-size: 1.1em;
+}
+#sc-span-measure {
+  font-size: 0.8em;
+}
+
+/* END STYLES FOR SINGLE-CATEGORY*/
+
+
+.panel-footer {
+	background-color: #222; 
+	color: #fff;
+	line-height: 2;
+	font-size: 2.8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+#hours, #address {
+	font-size: 1.3em;
+}
+#delivery {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8; 
+}
+#testim {
+  line-height: 1.4em;
+  font-style: italic;
+}
+#copyr {
+  text-align: center;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;  
+  }
+  #rest_name { /* Restaurant name */
+    font-size: 5vw;  }
+  .navbar-brand #star_kosh { /* Kosher cert */
+    font-size: .7em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+  #nav-group {
+    margin-top: 0px; margin-left: auto; margin-right: auto;
+  }
+  #navbarSupportedContent {
+  	line-height: 0.1; 
+  }
+  button {
+  	/* Omdat in bs4 bij smalle size de padding 15 vd container binnen een nav wegvalt. 
+  	Buiten een nav blijft ze wel en zijn ze dus niet meer aligned */
+  	margin-right: 15px;
+  }
+  #nav-group i {
+  font-size: 1.1em;
+  margin-right: 5px;
+  }
+  #nav-group a {
+  font-size: 1.2em;
+  }
+  .nav-link {padding: 10px;}  
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+@media (max-width: 479px) {
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+     padding-left: 15px; padding-right: 15px;
+  }
+  #header-nav {
+    margin-bottom: 20px; /* is er niet meer in .nav van bs4*/
+  } 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#nav-group {
+  	margin-top: -50px;	
+	}
+  .jumbotron {
+    background: url("../images/jumbotron_768.jpg") no-repeat;
+    height: 432px; 
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .jumbotron {
+    background: url("../images/jumbotron_992.jpg") no-repeat;
+    height: 558px;  
+  }
+}
+@media (min-width: 1200px) {
+	/* Eens gedaan om container width gelijk te trekken met bs3,
+	    maar dan komt de spacing tussen de nav-items niet meer overeen*/ 
+  .container {max-width: 1170px; width: 1170px;} 
+  #logo {
+    background: url("../Blender_logo/logo_large.png") no-repeat;
+    width: 150px; height: 150px; 
+    border-radius: 50%;
+    //box-shadow: -2px 2px 29px 10px rgba(68,68,68,1);
+    //box-shadow: -2px 2px 29px 10px rgb(256, 256, 256);
+    box-shadow: -2px 2px 29px 10px rgba(143, 139, 130,1);   
+     box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);  
+    //border: 5px solid #444;
+    //border: 5px solid #203A43;
+   // border: 5px solid grey;
+  }
+    
+}
