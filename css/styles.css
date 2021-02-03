@@ -11,17 +11,27 @@ body {
 .container {
  // padding-left: 0px; // margin-left: 20px; //margin-bottom: 5px;
 }
-
+header {
+ // margin-bottom: 50px;
+}
 #header-nav {
   //background-color: #a1a3a6;
+  //background-color: #838f8b;
   background-color: #b2bcac;
   padding: 0;
   //background-color: grey; 
+
 }
 #logo {
  //background: url("../images/restaurant-logo_large.png") no-repeat;
  // width: 100px; //height: 100px;
   margin-top: 5px; margin-bottom: 5px; margin-left: 0;
+}
+#about-box {
+  //background-color: #838f8b;
+  //background-color: #b2bcac;
+  
+  background-color: #dbe0d7;
 }
 nav h1 {
   font-family: 'Finger Paint', cursive;
@@ -314,8 +324,7 @@ font-size: 1.6em;
   .navbar-expand-md .navbar-nav .nav-link {
      padding-left: 15px; padding-right: 15px;
   }
-  #header-nav {
-    margin-bottom: 20px; /* is er niet meer in .nav van bs4*/
+ 
   } 
 }
 @media (min-width: 768px) and (max-width: 991px) {
