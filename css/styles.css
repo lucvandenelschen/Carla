@@ -17,9 +17,14 @@ header {
 #header-nav {
   //background-color: #a1a3a6;
   //background-color: #838f8b;
-  background-color: #b2bcac;
+  //background-color: #b2bcac;
+  //background-color: #b5a196;
+  //background-color: #636d76;
   padding: 0;
-  //background-color: grey; 
+  //background-color: #d7cbc5; 
+  //background-color: #fffefd;
+ // border: 5px solid #b5a196;
+  border-radius: 5px;
 
 }
 #logo {
@@ -30,8 +35,21 @@ header {
 #about-box {
   //background-color: #838f8b;
   //background-color: #b2bcac;
-  
-  background-color: #dbe0d7;
+  //background-color: #dbe0d7;
+  //background-color: #81878c;
+  //background-color: #636d76;
+  background-color: black;
+  border-radius: 5px;
+  //border: 5px solid grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#carla-foto {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 nav h1 {
   font-family: 'Finger Paint', cursive;
