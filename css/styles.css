@@ -39,14 +39,14 @@ header {
   //background-color: #81878c;
   //background-color: #636d76;
   background-color: black;
-  border-radius: 5px;
+ // border-radius: 5px;
   //border: 5px solid grey;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.3em;
-  text-shadow: 1px 1px 1px #222;
+//  text-shadow: 1px 1px 1px #222;
   
 }
 #carla-foto {
@@ -241,28 +241,36 @@ font-size: 1.6em;
   position: relative;
  // border: 2px solid #3F0C1F; 
  // overflow: hidden;
-  padding-right: 0;
+ // padding-right: 0;
  // margin-right: -15px;
  // margin-left: auto;
   margin-bottom: 20px;
-  max-width: 465px;
+  max-width: 480px;
 }
 #sc-img {
   max-width: 100%;
   //height: auto;
+  box-shadow: 10px 10px 10px #403d3d
 }
 #sc-spans-div {
   text-align: right;
 }
 #sc-span-id{
+   font-size: 1.1em;
   position: absolute;
-  background-color: grey;
-  width: 30%;
+  background-color: #403d3d;
+  width: 20%;
   text-align: center;
-  bottom:0; right:0px;
+  bottom:0; right:15px;
 }
 #sc-span-price {
   font-size: 1.1em;
+  position: absolute;
+  background-color: #403d3d;
+  width: 20%;
+  text-align: center;
+  bottom:0; left:15px;
+}
 }
 #sc-span-measure {
   font-size: 0.8em;
@@ -381,7 +389,7 @@ font-size: 1.6em;
     border-radius: 50%;
     //box-shadow: -2px 2px 29px 10px rgba(68,68,68,1);
     //box-shadow: -2px 2px 29px 10px rgb(256, 256, 256);
-    box-shadow: -2px 2px 29px 10px rgba(143, 139, 130,1);   
+   // box-shadow: -2px 2px 29px 10px rgba(143, 139, 130,1);   
      box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);  
     //border: 5px solid #444;
     //border: 5px solid #203A43;
