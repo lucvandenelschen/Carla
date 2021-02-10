@@ -32,6 +32,20 @@ header {
  // width: 100px; //height: 100px;
   margin-top: 5px; margin-bottom: 5px; margin-left: 0;
 }
+#nav-list /*de ul*/ a { /* Kleur vd links*/
+ //color: #203A43;
+ //color: #4D6973;
+ color: #35515A;
+ //color: #132E37;
+  text-align: center; /*Anders staat het uitgeklapte menu helemaal rechts*/ 
+} 
+#nav-list a .fas{ /* De awesomes*/ 
+  font-size: 1.8em; 
+} 
+
+#nav-list a:hover { 
+  background: #E7E7E7; /* lichte achtergrond */
+}
 #about-box {
   //background-color: #838f8b;
   //background-color: #b2bcac;
