@@ -12,7 +12,7 @@ body {
  // padding-left: 0px; // margin-left: 20px; //margin-bottom: 5px;
 }
 header {
- // margin-bottom: 50px;
+ //margin-bottom: 5px; //margin-top: 5px;
 }
 #header-nav {
   //background-color: #a1a3a6;
@@ -30,7 +30,7 @@ header {
 #logo {
  //background: url("../images/restaurant-logo_large.png") no-repeat;
  // width: 100px; //height: 100px;
-  margin-top: 5px; margin-bottom: 5px; margin-left: 0;
+  margin-top: 15px; margin-bottom: 5px; margin-left: 0; margin-right: 10px;
 }
 #nav-list /*de ul*/ a { /* Kleur vd links*/
  //color: #203A43;
@@ -38,11 +38,14 @@ header {
  color: #35515A;
  //color: #132E37;
   text-align: center; /*Anders staat het uitgeklapte menu helemaal rechts*/ 
+  font-weight: bold;
 } 
-#nav-list a .fas{ /* De awesomes*/ 
-  font-size: 1.8em; 
+#nav-list a .fas, #nav-list a .fa, #nav-list a .fab { /* De awesomes*/ 
+  font-size: 1.8em;
 } 
-
+#nav-list a .fab { /* De awesomes*/ 
+  font-size: 2.2em; 
+}
 #nav-list a:hover { 
   background: #E7E7E7; /* lichte achtergrond */
 }
@@ -61,7 +64,10 @@ header {
   padding-bottom: 10px;
   font-size: 1.3em;
 //  text-shadow: 1px 1px 1px #222;
-  
+}
+#about-box a {
+color: #B37F76;
+text-decoration: none;
 }
 #carla-foto {
   max-width: 100%;
@@ -80,35 +86,7 @@ nav h1 {
 nav img {
 	border-radius: 50%;
 	}
-#rest_kosh {
-  margin-top: 15px;
-  margin-left: 15px; padding-bottom: 0;
-}
-#rest_name {
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 27px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  line-height: .75;
-}
-#rest_kosh a {
-  text-decoration: none;
-}
-#star_kosh {
-  //display: flex;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  margin-top: 15px;
-}
-#star_kosh span {
-  align-self: center;
-  margin-left: 3px;
-  color: #000;
-  font-family: 'Oxygen', serif;
-  font-size: .8em;
-}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(97, 18, 47)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   font-size: 1.2em; 
@@ -144,9 +122,7 @@ nav img {
 	padding: 1.5rem 1rem;
 
 }
-#navbarSupportedContent hr{
-	margin-top: 8px; margin-bottom: 0;
-}
+
 #tel-nr {
   font-size: 1.8em;
   display: inline-block; //voor de margin;
