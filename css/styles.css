@@ -40,11 +40,11 @@ header {
   text-align: center; /*Anders staat het uitgeklapte menu helemaal rechts*/ 
   font-weight: bold;
 } 
-#nav-list a .fas, #nav-list a .fa, #nav-list a .fab { /* De awesomes*/ 
+#nav-list a .fas, #nav-list a .fa { /* De awesomes*/ 
   font-size: 1.8em;
 } 
 #nav-list a .fab { /* De awesomes*/ 
-  font-size: 2.2em; 
+  font-size: 1.2em; 
 }
 #nav-list a:hover { 
   background: #E7E7E7; /* lichte achtergrond */
@@ -237,11 +237,25 @@ font-size: 1.6em;
   margin-bottom: 20px;
   max-width: 480px;
 }
+#sc-img-box-h315 {
+  position: relative;
+ // border: 2px solid #3F0C1F; 
+ // overflow: hidden;
+ // padding-right: 0;
+ // margin-right: -15px;
+ // margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 480px;
+  height: 315px;
+}
 #sc-img {
   max-width: 100%;
   //height: auto;
   box-shadow: 10px 10px 10px #403d3d
 }
+#sc-img:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+  }
 #sc-spans-div {
   text-align: right;
 }
@@ -278,7 +292,21 @@ font-size: 1.6em;
 	padding-bottom: 30px;
   margin-top: 30px;
 }
+.panel-footer .fab, .panel-footer a, #testim, #copyr {
+  //color: #B37F76;
+  //color: #D6ACA5;
+  //color: #8F9EA2;
+  color: #FFE4DF;
+  //color: #fff;
+}
+.panel-footer .fab, .panel-footer .fa-home {
+  margin-right: 14px;
+}
+#foot-awesome {
+  //color: #fff9f6;
+  // color: #d7cbc5;
 
+}
 #hours, #address {
 	font-size: 1.3em;
 }

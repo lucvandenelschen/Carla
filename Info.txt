@@ -6,9 +6,11 @@ De Figma icons site die hij toont op 12:50: https://www.figma.com/resources/asse
 Mijn Figma: https://www.figma.com/file/bbFKupFt6sCnPbglMSBrUR/Delivery-App_UI-Kit-(Copy)?node-id=33%3A444
 
 Tekst 'over mij':
-Hallo, ik ben Carla. Sommigen kennen mij misschien van mijn nagelstudio <link>. De Covid lockdowns van 20-21 hebben me een nieuwe passie doen ontdekken. Het resultaat daarvan kan je hieronder bekijken. Wil je graag één of meerdere van deze werkjes in je interieur, geef me dan maar een seintje. Misschien komt er nog wel een webshop, we zien wel hoe het loopt. Wil je graag een berichtje achterlaten in verband met mijn creaties, graag! Dat kan hier. Nog iets zeggen van maatwerk of op basis van een foto?
+<p class="col-md-6 align-self-center">Hallo, ik ben Carla. Sommigen kennen mij misschien van <a href="https://www.facebook.com/CarlasNailcorner" target="_blank">mijn nagelstudio</a>. De Covid lockdowns van 20-21 hebben me een nieuwe passie doen ontdekken. Ziehier het resultaat. Wil je graag één of meerdere van deze werkjes in je interieur, vul dan het<a href="#"> bestelformulier</a> in of <a href="tel:023563160">bel me</a> gewoon. Je mag ook altijd een <a href="#">berichtje</a> achterlaten in verband met mijn creaties of deze site. Heb je een idee in je hoofd, op een tekening of een foto en wil je het graag uitgewerkt zien? Laat het me weten, misschien maak ik er wat van.</p>
 
 Berlaarsestwg 82
 
 0478 32 10 85
 info@carlasnailcorner.be
+
+https://www.facebook.com/CarlasNailcorner
