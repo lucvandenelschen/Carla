@@ -236,6 +236,7 @@ font-size: 1.6em;
  // margin-left: auto;
   margin-bottom: 20px;
   max-width: 480px;
+  align-self: end;
 }
 #sc-img-box-h315 {
   position: relative;
@@ -245,8 +246,9 @@ font-size: 1.6em;
  // margin-right: -15px;
  // margin-left: auto;
   margin-bottom: 20px;
-  max-width: 480px;
-  height: 315px;
+  max-width: 628px;
+  align-self: end;
+  
 }
 #sc-img {
   max-width: 100%;
