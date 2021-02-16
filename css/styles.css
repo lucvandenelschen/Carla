@@ -238,38 +238,47 @@ font-size: 1.6em;
   max-width: 480px;
   align-self: end;
 }
+#sc-img-box-w556 {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 556px;
+  align-self: end;
+}
 #sc-img-box-w628 {
   position: relative;
- // border: 2px solid #3F0C1F; 
- // overflow: hidden;
- // padding-right: 0;
- // margin-right: -15px;
- // margin-left: auto;
   margin-bottom: 20px;
   max-width: 628px;
   align-self: end; 
 }
 #sc-img-box-w630 {
   position: relative;
- // border: 2px solid #3F0C1F; 
- // overflow: hidden;
- // padding-right: 0;
- // margin-right: -15px;
- // margin-left: auto;
   margin-bottom: 20px;
   max-width: 630px;
   align-self: end; 
 }
-#sc-img-box-w556 {
+#sc-img-box-w696 {
   position: relative;
- // border: 2px solid #3F0C1F; 
- // overflow: hidden;
- // padding-right: 0;
- // margin-right: -15px;
- // margin-left: auto;
   margin-bottom: 20px;
-  max-width: 556px;
+  max-width: 696px;
+  align-self: end; 
+}
+#sc-img-box-w750 {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 750px;
   align-self: end;
+}
+#sc-img-box-w990 {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 990px;
+  align-self: end; 
+}
+#sc-img-box-w630 {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 630px;
+  align-self: end; 
 }
 #sc-img {
   max-width: 100%;
