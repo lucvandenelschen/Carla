@@ -69,10 +69,14 @@ header {
 color: #B37F76;
 text-decoration: none;
 }
+#carla-foto-box {
+  align-self: center;
+}
 #carla-foto {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
+
 }
 nav h1 {
   font-family: 'Finger Paint', cursive;
@@ -160,10 +164,6 @@ hr {height: 2px;
 	margin-bottom: 30px;
 	letter-spacing: 1px;
 }
-.jumbotron { padding: 0; }
-.jumbotron img  {
-	height: auto; max-width: 100%;
-}
 
 #menu-tile {
 	background: url("../images/menu-tile.jpg") no-repeat center;
@@ -236,6 +236,12 @@ font-size: 1.6em;
  // margin-left: auto;
   margin-bottom: 20px;
   max-width: 480px;
+  align-self: end;
+}
+#sc-img-box-w433 {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 433px;
   align-self: end;
 }
 #sc-img-box-w556 {
@@ -396,48 +402,48 @@ font-size: 1.6em;
   }
 }
 
-@media (max-width: 479px) {
-#menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
+@media (max-width: 575px) {
+#carla-foto-box {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
      padding-left: 15px; padding-right: 15px;
   }
- 
-  } 
-}
+} */
+
 @media (min-width: 768px) and (max-width: 991px) {
-	#nav-group {
-  	margin-top: -50px;	
-	}
-  .jumbotron {
-    background: url("../images/jumbotron_768.jpg") no-repeat;
-    height: 432px; 
+  nav h1 {
+    font-size: 2rem;
   }
+  #logo {
+    background: url('../Blender_logo/logo_100.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);
+  }  
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../Blender_logo/logo_100.jpg') no-repeat;
     width: 100px;
     height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  .jumbotron {
-    background: url("../images/jumbotron_992.jpg") no-repeat;
-    height: 558px;  
+    border-radius: 50%;
+    box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);
   }
 }
 @media (min-width: 1200px) {
 	/* Eens gedaan om container width gelijk te trekken met bs3,
 	    maar dan komt de spacing tussen de nav-items niet meer overeen*/ 
-  .container {max-width: 1170px; width: 1170px;} 
+  .container {max-width: 1170px; width: 1170px;}  
   #logo {
-    background: url("../Blender_logo/logo_large.png") no-repeat;
+    background: url("../Blender_logo/logo_large_150.png") no-repeat;
     width: 150px; height: 150px; 
     border-radius: 50%;
     //box-shadow: -2px 2px 29px 10px rgba(68,68,68,1);
