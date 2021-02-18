@@ -91,16 +91,29 @@ nav img {
 	border-radius: 50%;
 	}
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(97, 18, 47)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  font-size: 1.2em; 
+.navbar-toggler .icon-bar {
+  background-color: #343434;
+  display: block; 
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
 }
-
+.navbar-toggler .icon-bar + .icon-bar {
+      margin-top: 4px;
+}
 .navbar-light .navbar-toggler {
-  border-color: rgb(97, 18, 47); font-size: 0.8em;
+  border-color: #343434; font-size: 0.8em;
+  width: 36px;
+  height: 30px;
+  padding-left: 5px;
+  border: 2px solid #343434;
 }
 
-.icon-bar { width: 50px; }
+
+//.icon-bar { 
+ // width: 50px;
+ // height: 1px;
+ }
 //#nav-group {
 //  margin-right: 15px;	
 }
@@ -124,8 +137,9 @@ nav img {
 }
 .nav-link {
 	padding: 1.5rem 1rem;
-
+text-align: center;
 }
+
 
 #tel-nr {
   font-size: 1.8em;
@@ -404,11 +418,7 @@ font-size: 1.6em;
   #navbarSupportedContent {
   	line-height: 0.1; 
   }
-  button {
-  	/* Omdat in bs4 bij smalle size de padding 15 vd container binnen een nav wegvalt. 
-  	Buiten een nav blijft ze wel en zijn ze dus niet meer aligned */
-  	margin-right: 15px;
-  }
+
   #nav-group i {
   font-size: 1.1em;
   margin-right: 5px;
@@ -421,6 +431,15 @@ font-size: 1.6em;
     width: 360px;
     margin: 0 auto 15px;
   }
+.fa-home {
+  margin-right: 4px;
+  margin-left: -15px;
+}
+#social-sm a {
+  margin-right: 11px;
+  margin-left: 11px;
+ 
+}  
 }
 
 @media (max-width: 575px) {
