@@ -450,6 +450,11 @@ font-size: 1.6em;
 }  
 }
 
+@media (max-width: 218px) {
+  #logo {
+    display: none;
+  }
+}
 @media (max-width: 575px) {
   #logo {
     background: url('../Blender_logo/logo_50.jpg') no-repeat;
@@ -466,7 +471,7 @@ font-size: 1.6em;
   }
   nav h1 {
     text-align: center;
-    font-size: 6vw;
+    font-size: 7vw;
   }  
   #title-xs {
     max-width: 50%;
@@ -476,6 +481,14 @@ font-size: 1.6em;
   }
   #logo {
     margin-right: 0;
+  }
+  #about-box .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar > .container {
+    padding-left: 15px;
+    padding-right: 15px;    
   }
 }
 
