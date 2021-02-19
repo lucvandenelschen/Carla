@@ -387,6 +387,9 @@ font-size: 1.6em;
     border-radius: 50%;
     box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);
   }
+  nav h1 {
+    font-size: 6vw;
+  }    
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
@@ -394,9 +397,6 @@ font-size: 1.6em;
 	padding-left: 30px;
 	padding-right: 30px;
   }
-  nav h1 {
-    font-size: 6vw;
-  }  
 }
 
 @media (max-width: 767px) {
@@ -464,6 +464,10 @@ font-size: 1.6em;
     margin-left: auto;
     margin-right: auto;
   }
+  nav h1 {
+    text-align: center;
+    font-size: 8vw;
+  }  
 }
 
 @media (min-width: 768px) {
