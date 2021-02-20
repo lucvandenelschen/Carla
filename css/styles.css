@@ -6,7 +6,7 @@ body {
   font-family: 'Oxygen', sans-serif;
  // margin: 0; //staat ook in bootstrap;
  /*Omdat de onderkant van de tile tegen de onderkant van het scherm plakte*/
- height: 1160px;
+ //height: 1160px;
 }
 .container {
  // padding-left: 0px; // margin-left: 20px; //margin-bottom: 5px;
@@ -24,7 +24,9 @@ header {
   //background-color: #d7cbc5; 
   //background-color: #fffefd;
  // border: 5px solid #b5a196;
+ background-color: #fff9f6;
   border-radius: 5px;
+  position: sticky; 
 
 }
 #logo {
