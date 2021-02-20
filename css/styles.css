@@ -34,6 +34,15 @@ header {
  // width: 100px; //height: 100px; min-width: 100px; /* Wordt anders verkleind bij 768-991*/
   margin-top: 15px; margin-bottom: 5px; margin-left: 0; margin-right: 10px;
 }
+.logo-scroll {
+  background: url('../Blender_logo/logo_50.jpg') no-repeat !important; 
+  width: 50px !important;
+  min-width: 50px !important;
+  height: 50px !important;
+  margin-top: 0 !important;
+  //margin-right: 10px !important;
+  box-shadow: inset -2px 2px 9px 0px rgba(143, 139, 130,1) !important;
+}
 #nav-list /*de ul*/ a { /* Kleur vd links*/
  //color: #203A43;
  //color: #4D6973;
