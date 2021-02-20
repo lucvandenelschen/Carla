@@ -26,7 +26,8 @@ $('.navbar-collapse a').click(function(){
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) 
+    && (window.innerWidth > 575))  {
     document.getElementById("logo").className = "logo-scroll";
   } else {
     document.getElementById("logo").className = "";

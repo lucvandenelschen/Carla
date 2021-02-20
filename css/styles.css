@@ -492,6 +492,12 @@ font-size: 1.6em;
   }
   #logo {
     margin-right: 0;
+    margin-top: 5px;
+    align-self: end;
+  }
+  .navbar-toggler {
+    align-self: end; 
+    margin-top: 10px;  
   }
   #about-box .container {
     padding-left: 0;
