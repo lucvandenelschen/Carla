@@ -43,6 +43,8 @@ header {
   margin-top: 0 !important;
   //margin-right: 10px !important;
   box-shadow: inset -2px 2px 9px 0px rgba(143, 139, 130,1) !important;
+ // transition: height 2s;
+ 
 }
 #nav-list /*de ul*/ a { /* Kleur vd links*/
  //color: #203A43;
@@ -136,10 +138,10 @@ nav img {
 //.icon-bar { 
  // width: 50px;
  // height: 1px;
- }
+// }
 //#nav-group {
 //  margin-right: 15px;	
-}
+//}
 #nav-group li {
 	text-align: center;
 //	margin-top: 15px;
@@ -330,7 +332,6 @@ font-size: 1.6em;
 }
 #sc-img:hover {
   box-shadow: 0 1px 5px 5px #555555;
-
   }
 #sc-spans-div {
   text-align: right;

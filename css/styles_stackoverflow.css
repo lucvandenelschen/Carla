@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff9f6;
+  //background-color: grey;
+  font-family: 'Oxygen', sans-serif;
+ // margin: 0; //staat ook in bootstrap;
+ /*Omdat de onderkant van de tile tegen de onderkant van het scherm plakte*/
+ //height: 1160px;
+}
+
+#header-nav {
+  padding: 0;
+  background-color: #fff9f6;
+  border-radius: 5px;
+  position: sticky; 
+}
+
+#logo {
+  min-width: 100px; /* Wordt anders verkleind bij 768-991*/
+  margin-top: 15px; margin-bottom: 5px; margin-left: 0; margin-right: 10px;
+  border-radius: 50%;
+  box-shadow: inset -2px 2px 29px 10px rgba(143, 139, 130,1);
+}
+
+.logo-scroll {
+  background: url('../Blender_logo/logo_50.jpg') no-repeat !important; 
+  width: 50px !important;
+  min-width: 50px !important;
+  height: 50px !important;
+  margin-top: 0 !important;
+  box-shadow: inset -2px 2px 9px 0px rgba(143, 139, 130,1) !important;
+ // transition: height 2s;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo {
+    background: url('../Blender_logo/logo_100.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+
+  }
+}
+@media (min-width: 1200px) {
+	/* Eens gedaan om container width gelijk te trekken met bs3,
+	    maar dan komt de spacing tussen de nav-items niet meer overeen*/ 
+  .container {max-width: 1170px; width: 1170px;}  
+  #logo {
+    background: url("../Blender_logo/logo_large_150.png") no-repeat;
+    width: 150px; height: 150px; 
+  }
+
+
+nav h1 {
+  font-family: 'Finger Paint', cursive;
+  //  font-size: 47px;
+  color: #203A43;
+  //color: #000;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px #222;
+//  line-height: .75;
+}
+
+#nav-list /*de ul*/ a { /* Kleur vd links*/
+ //color: #203A43;
+ //color: #4D6973;
+ color: #35515A;
+ //color: #132E37;
+  text-align: center; /*Anders staat het uitgeklapte menu helemaal rechts*/ 
+  font-weight: bold;
+} 
+#nav-list a .fas, #nav-list a .fa { /* De awesomes*/ 
+  font-size: 1.8em;
+} 
+#nav-list a .fab { /* De awesomes*/ 
+  font-size: 1.2em; 
+}
+#nav-list a:hover { 
+  background: #E7E7E7; /* lichte achtergrond */
+}
+#social-nav {
+  padding-left: 20px;
+  margin-top: 14px;
+}
+#social-nav li {
+  height: 24px;
+}
+#social-nav a {  
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: #343434;
+  display: block; 
+  width: 22px;
+  height: 2px;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+      margin-top: 4px;
+}
+.navbar-light .navbar-toggler {
+  border-color: #343434; font-size: 0.8em;
+  width: 36px;
+  height: 30px;
+  padding-left: 5px;
+  border: 2px solid #343434;
+}
+#nav-group li {
+	text-align: center;
+}
+
+#nav-group .high-over:hover {
+  background-color: #FFF;
+}
+#nav-group i {
+  font-size: 1.8em;
+}
+#nav-group a {
+  color: #951C49;
+	text-decoration: none;
+}
+.nav-link {
+	padding: 1.5rem 1rem;
+text-align: center;
+}
