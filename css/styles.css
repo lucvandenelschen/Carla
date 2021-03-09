@@ -26,14 +26,15 @@ header {
  // border: 5px solid #b5a196;
  background-color: #fff9f6;
  //background-color: #d7d9d8;
-  border-radius: 5px;
-  position: sticky; 
+ // border-radius: 0 0 5px 5px;
+ // position: sticky; 
 }
 
 #logo {
  //background: url("../images/restaurant-logo_large.png") no-repeat;
  // width: 100px; //height: 100px; min-width: 100px; /* Wordt anders verkleind bij 768-991*/
   margin-top: 15px; margin-bottom: 5px; margin-left: 0; margin-right: 10px;
+  transition: all 1s ease; //position: fixed-top;
 }
 .logo-scroll {
   background: url('../Blender_logo/logo_50.jpg') no-repeat !important; 
@@ -43,9 +44,12 @@ header {
   margin-top: 0 !important;
   //margin-right: 10px !important;
   box-shadow: inset -2px 2px 9px 0px rgba(143, 139, 130,1) !important;
- // transition: height 2s;
- 
+  transition: all 1s ease;
+  //position: fixed-top;
 }
+
+/*.header-nav-scrolled { height: 103px; } */
+
 #nav-list /*de ul*/ a { /* Kleur vd links*/
  //color: #203A43;
  //color: #4D6973;
@@ -63,6 +67,7 @@ header {
 #nav-list a:hover { 
   background: #E7E7E7; /* lichte achtergrond */
 }
+
 #social-nav {
   padding-left: 20px;
   margin-top: 14px;
@@ -350,11 +355,21 @@ font-size: 1.6em;
   position: absolute;
   background-color: #403d3d;
   width: 20%;
-  text-align: center;
+  //text-align: center;
   bottom:0; left:15px;
   opacity: 0.7;
 }
+#sc-span-price span {
+  text-align: left;
+  margin-left: 5px;
 }
+#sc-span-price a {
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  right: 5px;
+}
+
 #sc-span-measure {
   font-size: 0.8em;
 }
@@ -421,6 +436,9 @@ font-size: 1.6em;
 	padding-left: 30px;
 	padding-right: 30px;
   }
+ /* .nav-link .fa-shopping-cart {
+    margin-left: -70px;
+  } */
 }
 
 @media (max-width: 767px) {
@@ -480,6 +498,9 @@ font-size: 1.6em;
   }
 }
 @media (max-width: 575px) {
+ /* #header-nav {
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.28);
+  } */
   #logo {
     background: url('../Blender_logo/logo_50.jpg') no-repeat;
 	  min-width: 50px;
