@@ -63,3 +63,15 @@ $(document).ready(function () {
   });
 }); 
 */
+
+/*L54 unobstrusive event binding */
+function getName (event) {
+	var enteredName = document.getElementById("fname").value;
+	document.getElementById("to-be-filled").innerHTML = 
+		"<h2> Hello " + enteredName + "</h2>";
+		//console.log (event);
+}
+document.querySelector(".mybutton").addEventListener("click", getName);
+
+
+

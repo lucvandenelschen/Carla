@@ -363,11 +363,12 @@ font-size: 1.6em;
   text-align: left;
   margin-left: 5px;
 }
-#sc-span-price a {
+#sc-span-price .fa-shopping-cart {
   color: #fff;
   text-align: right;
   position: absolute;
   right: 5px;
+  bottom: 5px;
 }
 
 #sc-span-measure {
