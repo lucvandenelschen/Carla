@@ -1,6 +1,6 @@
 function makeMultiplier (multiplier) {
 	this.test = 1;
-	console.log (this.test);
+	console.log (this);
 	function myMultiplier (x) {
 		return x * multiplier;
 	};
