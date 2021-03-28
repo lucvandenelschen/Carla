@@ -1,2 +1,2 @@
-<?php header( 'Location: /index.html' ) ;  ?>
+<?php header( 'Location: /indexx.html' ) ;  ?>
 <!--?php include_once("home.html"); ?-->
