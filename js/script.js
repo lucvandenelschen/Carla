@@ -5,6 +5,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     var screenWidth = window.innerWidth; //With of the browser window itself.
     if (screenWidth < 768) {
       $("#collapsable-nav").collapse('hide'); //collapse is een functie in bootstrap.js, hetgeen JQuery is.
+      console.log('test2');
     }
   });
 
@@ -14,14 +15,18 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // which is set up above will not be called.
   // Refer to issue #28 in the repo.
   // Solution: force focus on the element that the click event fired on
+  // Moet dat hieronder niet .navbar-toggler zijn?
   $("#navbarToggle").click(function (event) {
     $(event.target).focus();
   });
   
+  $(".navbar-collapse a").click(function(event){
+    console.log('test');
+            $("#collapsable-nav").collapse('show');
+  });
+
 });
-$('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-});
+
 
 
 window.onscroll = function() {myFunction()};
@@ -72,6 +77,7 @@ function getName (event) {
 		//console.log (event);
 }
 document.querySelector(".mybutton").addEventListener("click", getName);
+console.log(this);
 
 
 

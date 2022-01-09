@@ -42,7 +42,7 @@ body {
 
 #social-nav {
   padding-left: 20px;
-  margin-top: 14px; margin-left:  auto; margin-right: auto;
+  margin-top: 14px;
 }
 #social-nav li {
   height: 24px;
@@ -99,11 +99,56 @@ nav img {
   border: 2px solid #343434;
 }
 
+#nav-group li {
+	text-align: center;
+}
+
+#nav-group .high-over:hover {
+  background-color: #FFF;
+}
+#nav-group i {
+  font-size: 1.8em;
+}
+#nav-group a {
+  color: #951C49;
+	text-decoration: none;
+}
 .nav-link {
 	padding: 1.5rem 1rem;
 text-align: center;
 }
 
+
+#tel-nr {
+  font-size: 1.8em;
+  display: inline-block; //voor de margin;
+ // margin-top: -15px; 
+  padding-bottom: 0; 
+  // padding-right: 0;
+  padding-top: 15px;
+}
+#deliver {
+  text-align: right;
+  margin-top: -10px;
+  color: #557c3e;
+}
+#phone {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  margin: 20px;
+  background-color: #f6b319;
+  justify-content: center;
+  height: 60px;
+  margin-right: auto; margin-left: auto;
+  border-radius: 5px;
+  font-size: 1.5em;
+  border: 2px solid white;
+  margin-bottom: 5px;
+}
+hr {height: 2px;
+	width: 100%;
+	color: #fff;}
 
 #deliver-small {
 	text-align: center;
@@ -112,8 +157,69 @@ text-align: center;
 	letter-spacing: 1px;
 }
 
-#sc-img-box
- {
+#menu-tile {
+	background: url("../images/menu-tile.jpg") no-repeat center;
+	position: relative;	
+	//width: 100%;
+	height: 250px;	
+	//overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#specials-tile {
+	background: url("../images/specials-tile.jpg") no-repeat center;
+	position: relative;	
+	//width: 100%;
+	height: 250px;	
+	margin-bottom: 15px;
+}
+
+#map-tile {
+  position: relative;	
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+#tiles span {
+text-align: center;
+width: 100%;
+background: #000;
+color: #fff;
+opacity: .8;
+position: absolute; bottom: 0; right: 0;
+font-size: 1.6em;
+}
+
+/* STYLES FOR MENU-CATEGORIES*/
+#sub-title {
+  margin-bottom: 50px;
+}
+#mc-lunch {
+	position: relative;
+  width: 200px; 
+  margin: 0 auto 15px;
+  //margin-bottom: 15px;
+  //overflow: hidden;
+}
+#mc-lunch-span {
+	position: absolute;
+	bottom: 0; left: 0;
+	width: 100%;
+	background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 1.2em;
+}
+
+/* END STYLES FOR MENU-CATEGORIES*/
+
+/* STYLES FOR SINGLE-CATEGORY*/
+/*#sc-img-box {
+  position: relative;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}*/
+#sc-img-box {
   position: relative;
  // border: 2px solid #3F0C1F; 
  // overflow: hidden;
@@ -213,6 +319,13 @@ text-align: center;
   bottom: 5px;
 }
 
+#sc-span-measure {
+  font-size: 0.8em;
+}
+
+/* END STYLES FOR SINGLE-CATEGORY*/
+
+
 .panel-footer {
 	background-color: #222; 
 	color: #fff;
@@ -237,7 +350,14 @@ text-align: center;
   // color: #d7cbc5;
 
 }
-
+#hours, #address {
+	font-size: 1.3em;
+}
+#delivery {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8; 
+}
 #testim {
   line-height: 1.4em;
   font-style: italic;
@@ -265,11 +385,6 @@ text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
   }
-
-  #social-nav li {
-     width: 39px;
-    height: 39px; 
-  }
  /* .nav-link .fa-shopping-cart {
     margin-left: -70px;
   } */
@@ -279,21 +394,51 @@ text-align: center;
   .container {
     max-width: 100%;  
   }
+  #rest_name { /* Restaurant name */
+    font-size: 11vw;  }
+  .navbar-brand #star_kosh { /* Kosher cert */
+    font-size: .7em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+  #nav-group {
+    margin-top: 0px; margin-left: auto; margin-right: auto;
+  }
+  #navbarSupportedContent {
+  	line-height: 0.1; 
+  }
 
-.nav-link {padding: 10px;}  
-/* Tot hier nagekeken */
+  #nav-group i {
+  font-size: 1.1em;
+  margin-right: 5px;
+  }
+  #nav-group a {
+  font-size: 1.2em;
+  }
+  .nav-link {padding: 10px;}  
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
 #nav-list .fa-home {
   margin-right: 4px;
   margin-left: -15px;
 }
-
+#home-icon-sm-nodisp {
+ display: none;
+}
+#home-icon-sm-disp {
+ width: 50px;
+ height: 50px;
+}
 #social-sm div {
  // margin-right: 11px;
  // margin-left: 11px;
  width: 39px;
  height: 39px; 
 }  
-#social-nav li {display:  inline-block;}
 }
 
 @media (max-width: 218px) {
